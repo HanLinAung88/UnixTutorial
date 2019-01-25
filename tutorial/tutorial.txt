@@ -1,0 +1,62 @@
+Useful Unix commands
+
+Navigation:
+
+    cd [directory_name] : change directory
+    cd ~ : go to home directory
+
+Getting files information:
+
+    ls : list the files and directors in the current working directory (cwd)
+      -l : file sizes in cwd (not neccessarily accurate)
+      -a : lists all files (including hidden files)
+
+    du -sh [filename] : size of the file (s: summary, h:human-readable)
+
+    wc -l : count number of lines in file
+
+    cat [filename] : prints out contents of file
+
+    head [filename] : prints out first few lines of file
+
+    tail [filename] : prints out last few lines of file
+
+Modifying files/directories
+
+    mkdir [folder_name] : Creates directory
+
+    rm [-r] [filename]: Remove filename (-r is used in directories)
+
+    touch [filename] : creates file
+
+    mv [path_to_file] [second_path_to_file] : moves file to another path [can also be used to rename]
+
+    cp [path_to_file] [second_path_to_file] : copies file to another path [can also be used to rename]
+
+Searching for keywords
+
+    grep [-n] [-r] [file_directory]: Grep searches for word [-n: shows line number of file matched, -r : recursive search in directory]
+
+    ag : https://github.com/ggreer/the_silver_searcher [Better version of grep]
+
+    find [directory_name] -name [file_name_to_search] : finds the file or directory starting from directory_name
+
+
+Useful miscallaneous commands
+
+    chmod : changes the permission of the file (read-write) esp. useful for running bash scripts
+
+    | : piping. The right side of the pipe will be able to read the output from left side of pipe [e.g. ls | wc -l can be used to print out number of files]
+
+    > : redirect to file [ redirects output to a file] [e.g. ls > a.txt]
+
+    >> : redirects to file and appends the content [e.g. ls >> a.txt]
+
+
+Useful vimrc commands
+
+    set nu : set number of lines to be on
+    colo desert : nice color scheme
+    syntax on : syntax hilighting on
+
+    Useful link for vimrc: https://dougblack.io/words/a-good-vimrc.html

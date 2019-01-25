@@ -1,0 +1,4 @@
+THIS IS THE START OF THE GAME.
+The goal is to move back this special text file that is hidden among these files.
+The clues will be in text files like this. The first step is to find and navigate to
+the "hidden" portal to the "start" directory.
