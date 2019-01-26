@@ -1,4 +1,4 @@
-Count number of lines in this text file.
+Count number of lines in this text file. Remove all folders that have their names that start with the number of lines
 Hello World
 Hello World
 Hello World
